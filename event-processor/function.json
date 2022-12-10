@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "name": "queueItem",
+      "queueName": "cyber-queue",
+      "connection": "ServiceBusConnectionString"
+    }
+  ],
+  "scriptFile": "../dist/event-processor/index.js"
+}
