@@ -4,5 +4,6 @@ export enum EventTypes {
     UserCreated = "user_created",
     UserDeleted = "user_deleted",
     UserPasswordChanged = "user_password_changed",
-    UserPasswordReset = "user_password_reset"
+    UserPasswordReset = "user_password_reset",
+    UserRoleChanged = "user_role_changed"
 }
